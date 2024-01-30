@@ -43,6 +43,11 @@ export default {
       this.answerVulue =  Number(first) / Number(second)
       return this.answerVulue;
     },
+    addname(first, second, answer){
+      this.answerVulue = first + " " + second + " " + answer
+      return this.answerVulue;
+
+    }
   },
 }
 </script>
